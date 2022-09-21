@@ -6,34 +6,65 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float timeToDelay = 2f;
+    [SerializeField] AudioClip finish;
+    [SerializeField] AudioClip crash;
+
+    [SerializeField] ParticleSystem finishParticles;
+    [SerializeField] ParticleSystem crashParticles;
+    AudioSource audioSource;
+
+    bool isTransitioning = false;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+
+    }
 
     void OnCollisionEnter(Collision other)
     {
-        switch (other.gameObject.tag)
+        if (isTransitioning == false)
         {
-            case "Friendly":
-            Debug.Log("You'v bumped into friendly");
-            break;
-            case "Finish":
-            StartSuccessSequence(timeToDelay);
-            break;
-            default:
-            StartCrashSequence(timeToDelay);
-            break;
+                switch (other.gameObject.tag)
+            {
+                case "Friendly":
+                Debug.Log("You'v bumped into friendly");
+                break;
+                case "Finish":
+                StartSuccessSequence(timeToDelay);
+                break;
+                default:
+                StartCrashSequence(timeToDelay);
+                break;
+            }
         }
+        
     }
 
     private void StartSuccessSequence(float delayTime)
     {
+        isTransitioning = true;
+        audioSource.Stop();
+        audioSource.volume = 0.2f;
+        audioSource.PlayOneShot(finish);
         GetComponent<Movement>().enabled = false;
+        finishParticles.Play();
         Invoke("LoadNextScene", delayTime);
+        
+        
     }
 
     void StartCrashSequence(float delayTime)
     {
+        isTransitioning = true;
+        audioSource.Stop();
+        audioSource.volume = 0.2f;
+        audioSource.PlayOneShot(crash);
         GetComponent<Movement>().enabled = false;
-
+        crashParticles.Play();
         Invoke("ReloadScene", delayTime);
+        
+        
     }
 
     void LoadNextScene()
