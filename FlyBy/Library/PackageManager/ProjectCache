@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637995354378857585
-    m_Hash: 896666118
+      ticks: 637998760018117048
+    m_Hash: 3341811051
   m_LockFileStatus:
     m_FilePath: C:/Users/yandreev/Documents/GitHub/UnityExercises/FlyBy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637995354379597423
-    m_Hash: 4071963944
+      ticks: 637998760018117048
+    m_Hash: 2136301491
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
