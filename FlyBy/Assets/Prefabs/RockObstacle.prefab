@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5532518161087283282}
   - component: {fileID: 2450911194848580046}
   - component: {fileID: 8361311289785861415}
-  - component: {fileID: 461755366}
   m_Layer: 0
   m_Name: RockObstacle
   m_TagString: Untagged
@@ -99,17 +98,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1611378519818093464, guid: 58a5ab3dee2df4b7ca1055a0d6b8fe60, type: 3}
---- !u!114 &461755366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7257763807840424660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 579a24f8c1e960a4a96745032ed2517b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 10, z: 0}
-  period: 2
