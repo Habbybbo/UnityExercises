@@ -467,6 +467,7 @@ GameObject:
   - component: {fileID: 6188298700923537800}
   - component: {fileID: 6162728918606105180}
   - component: {fileID: 6171606559643037560}
+  - component: {fileID: -4591601530449794147}
   m_Layer: 0
   m_Name: Fly
   m_TagString: Untagged
@@ -540,6 +541,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-4591601530449794147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6193698602847901416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad90be67363243a479d6ec4a431b2023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deatVFX: {fileID: 4206773157757249783, guid: 6127abc44f17a8d43b263e15d83b5a89, type: 3}
+  scorePerHit: 0
+  hitPoints: 0
+  hitVFX: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 3}
 --- !u!1 &6607839866321645696
 GameObject:
   m_ObjectHideFlags: 0

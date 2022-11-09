@@ -449,8 +449,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8151102, y: 1.1136751, z: 3.4628277}
-  m_Center: {x: 0, y: -0.05683756, z: -3.035327}
+  m_Size: {x: 6.3394084, y: 2.7147245, z: 9.129503}
+  m_Center: {x: 0.09828275, y: -0.8573623, z: -0.20198604}
 --- !u!1 &5573438301171145698
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +642,7 @@ GameObject:
   - component: {fileID: 9067695038621711106}
   - component: {fileID: 5366380960140063911}
   - component: {fileID: 7898680723534610541}
+  - component: {fileID: -4103779835763391732}
   m_Layer: 0
   m_Name: Annoyng
   m_TagString: Untagged
@@ -715,6 +716,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-4103779835763391732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547053865448382904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad90be67363243a479d6ec4a431b2023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deatVFX: {fileID: 4206773157757249783, guid: 6127abc44f17a8d43b263e15d83b5a89, type: 3}
+  scorePerHit: 0
+  hitPoints: 0
+  hitVFX: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 3}
 --- !u!1 &8697143853043351503
 GameObject:
   m_ObjectHideFlags: 0

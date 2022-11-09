@@ -1565,6 +1565,7 @@ GameObject:
   - component: {fileID: 7717754542823986643}
   - component: {fileID: 7745346442662421663}
   - component: {fileID: 7735056674079601381}
+  - component: {fileID: -7597254079279709525}
   m_Layer: 0
   m_Name: Trooper1
   m_TagString: Untagged
@@ -1638,6 +1639,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-7597254079279709525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7713813045843461427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad90be67363243a479d6ec4a431b2023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deatVFX: {fileID: 4206773157757249783, guid: 6127abc44f17a8d43b263e15d83b5a89, type: 3}
+  scorePerHit: 0
+  hitPoints: 0
+  hitVFX: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 3}
 --- !u!1 &8140857782061445081
 GameObject:
   m_ObjectHideFlags: 0

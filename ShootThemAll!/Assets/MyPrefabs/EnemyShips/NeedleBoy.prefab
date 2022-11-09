@@ -373,6 +373,7 @@ GameObject:
   - component: {fileID: 3827097845505317456}
   - component: {fileID: 3849239779354190040}
   - component: {fileID: 3837123225741976688}
+  - component: {fileID: -8794068763665051075}
   m_Layer: 0
   m_Name: NeedleBoy
   m_TagString: Untagged
@@ -446,6 +447,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-8794068763665051075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3824994781800867410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad90be67363243a479d6ec4a431b2023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deatVFX: {fileID: 4206773157757249783, guid: 6127abc44f17a8d43b263e15d83b5a89, type: 3}
+  scorePerHit: 0
+  hitPoints: 0
+  hitVFX: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 3}
 --- !u!1 &4446710967499167131
 GameObject:
   m_ObjectHideFlags: 0

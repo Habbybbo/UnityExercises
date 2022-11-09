@@ -866,6 +866,7 @@ GameObject:
   - component: {fileID: 7810498667865418649}
   - component: {fileID: 6614570407062709308}
   - component: {fileID: 8948472091172688118}
+  - component: {fileID: -5175901669134152264}
   m_Layer: 0
   m_Name: Veider
   m_TagString: Untagged
@@ -939,6 +940,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-5175901669134152264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7435345697378398499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad90be67363243a479d6ec4a431b2023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deatVFX: {fileID: 4206773157757249783, guid: 6127abc44f17a8d43b263e15d83b5a89, type: 3}
+  scorePerHit: 0
+  hitPoints: 0
+  hitVFX: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 3}
 --- !u!1 &7523561328561805076
 GameObject:
   m_ObjectHideFlags: 0
